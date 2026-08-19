@@ -206,8 +206,15 @@
         item.className = 'gallery-item';
         const img = document.createElement('img');
         img.src = f.imagen;
-        img.alt = 'Foto de Akila Pastelería';
+        img.alt = f.titulo || 'Foto de Akila Pastelería';
         item.appendChild(img);
+        const titulo = document.createElement('p');
+        titulo.textContent = f.titulo || '';
+        titulo.style.color = '#c9a84c';
+        titulo.style.textAlign = 'center';
+        titulo.style.marginTop = '8px';
+        titulo.style.fontSize = '0.9rem';
+        item.appendChild(titulo);
         gallery.appendChild(item);
       });
     })
