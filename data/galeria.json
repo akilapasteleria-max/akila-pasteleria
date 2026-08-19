@@ -1,7 +1,7 @@
 {
   "fotos": [
     {
-      "imagen": "datos/martillo.png",
+      "imagen": "data/martillo.png",
       "titulo": "Torta especial",
       "categoria": "tortas"
     }
