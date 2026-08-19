@@ -1,3 +1,9 @@
 {
-  "fotos": []
+  "fotos": [
+    {
+      "url": "data/ChatGPT Image 19 ago 2026, 08_49_54.png",
+      "titulo": "Torta especial",
+      "categoria": "tortas"
+    }
+  ]
 }
